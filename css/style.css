@@ -7,6 +7,7 @@
 
 .navigation{
     font-family: var(--font1);
+    margin-top: 30px !important;
     height:50px;
     /* background-color: red; */
     display: flex;
@@ -15,12 +16,12 @@
 }
 
 .nav-left{
-    font-size: 20px;
+    font-size: 28px;
     display:flex;
 }
 .nav-left ul{
     display: flex;
-    font-size: 15px;
+    font-size: 20px;
     align-items: center;
     margin: 0 43px;
 }
@@ -58,6 +59,10 @@
 .content-left h2{
     margin-bottom: 15px;
 }
+.content-left p{
+    margin-right: 30px;
+    line-height: 2;
+}
 .content-right{
     /* width: 50%; */
     display: flex;
@@ -75,15 +80,24 @@
 
 
 .home-news{
-    height: 455px;
-    background-color: red;
+    /* background-color: red; */
+    padding-top: 20px;
 
 }
 
 .news{
-    
+    display: flex;
+    margin: 30px;
 }
 
+.news img{
+    width:300px;
+}
+
+.news-content{
+    align-self: center;
+    padding:0px 88px;
+}
 
 
 

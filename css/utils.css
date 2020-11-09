@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
 
 
 
@@ -7,6 +8,7 @@
     --main-bg-color: #686d76;
     --font1: 'Baloo 2', cursive;
     --font2: 'Play', sans-serif;
+    --font3: 'Rokkitt', serif;
   }
  
   .font1{
@@ -17,6 +19,13 @@
       font-family: 'Play', sans-serif;
 
   }
+  .font3{
+    font-family:'Rokkitt', serif;
+
+}
+
+
+
  .max-width-1{
      max-width: 80vw;
  }
