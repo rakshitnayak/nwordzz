@@ -4,11 +4,19 @@
 
 
  :root {
-    --main-bg-color: brown;
+    --main-bg-color: #686d76;
     --font1: 'Baloo 2', cursive;
     --font2: 'Play', sans-serif;
   }
  
+  .font1{
+      font-family: 'Baloo 2', cursive;
+
+  }
+  .font2{
+      font-family: 'Play', sans-serif;
+
+  }
  .max-width-1{
      max-width: 80vw;
  }

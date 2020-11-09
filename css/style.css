@@ -74,11 +74,25 @@
 }
 
 
+.home-news{
+    height: 455px;
+    background-color: red;
+
+}
+
+.news{
+    
+}
+
 
 
 
 .footer{
    height:40px;
-   /* background-color: yellow; */
+   background-color:var(--main-bg-color);
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   color:white;
 }
 
