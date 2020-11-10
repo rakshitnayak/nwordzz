@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Play&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 
 
 
@@ -20,7 +21,7 @@
 
   }
   .font3{
-    font-family:'Rokkitt', serif;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -38,6 +39,10 @@
      margin: auto;
  }
 
+ .my-2{
+     margin-top: 32px;
+     margin-bottom: 20px;
+ }
  .btn{
     padding :0px 5px;
     font-size: 15px;
