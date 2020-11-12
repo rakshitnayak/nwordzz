@@ -1,0 +1,10 @@
+.read-img img{
+    border: 2px solid black;
+    border-radius: 11px;
+    height: 200px;
+    width: 275px;
+}
+
+.read-section{
+    padding: 0;
+}
