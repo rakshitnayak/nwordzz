@@ -54,6 +54,11 @@
     background-color: var(--main-bg-color);
 }
 
+.nav-right button:hover {
+    height: 29px;
+    width: 82px;
+}
+
 .content {
     height: 395px;
     /* background-color: rgb(7, 186, 192); */
