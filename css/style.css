@@ -18,6 +18,11 @@
     display: flex;
 }
 
+.nav-left span a {
+    text-decoration: none;
+    color: black;
+}
+
 .nav-left ul {
     display: flex;
     font-size: 20px;
@@ -54,7 +59,7 @@
     background-color: var(--main-bg-color);
 }
 
-.content{
+.content {
     height: 100%;
     display: flex;
     margin-top: 32px !important;
