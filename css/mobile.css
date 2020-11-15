@@ -22,7 +22,7 @@
 
    .news{
        flex-direction: column;
-       margin: 0px;
+       margin: 34px 0;
    }
 
    .news-img{
@@ -32,7 +32,6 @@
    .news-content{
        padding: 0px;
        margin-top: 10px;
-       margin-bottom: 60px;
       
    }
 
@@ -57,3 +56,11 @@
     margin:12px;
 }
 }
+
+
+
+@media screen and (max-width:440px){
+    .news img{
+        width:260px
+    }
+  }
