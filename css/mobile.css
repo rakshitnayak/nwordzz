@@ -44,9 +44,6 @@
         width: 361px
 
     }
-}
-  
-   
 
 @media screen and (max-width:393px){
   .nav-right form{
@@ -64,3 +61,4 @@
         width:260px
     }
   }
+}
