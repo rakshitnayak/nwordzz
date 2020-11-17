@@ -3,31 +3,31 @@
     padding: 0;
 }
 
-.explore-landing{
+.explore-landing {
     background-image: url('../image/exploremain.jpg');
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     height: 80vh;
 }
 
-.navigation{
+.navigation {
     display: flex;
     justify-content: space-between;
     font-family: var(--font1);
     align-items: center;
-
 }
 
-.nav-left{
+.nav-left {
     font-size: 28px;
     display: flex;
 }
+
 .nav-left span a {
     text-decoration: none;
     color: #111;
 }
 
-.nav-right{
+.nav-right {
     display: flex;
     align-items: center;
 }
@@ -50,7 +50,7 @@
     color: #fff;
 }
 
-.btn-explore{
+.btn-explore {
     color: #fff;
 }
 
@@ -58,28 +58,29 @@
     border: 0;
     height: 0;
     border-top: 0.5px solid #fff;
-  
 }
 
-.grid{
-   
-    height: 100vh;
-    display: flex;
-    justify-content: center;
+.explore-margin {
+    width: 80%;
+    margin: auto;
     margin-top: 30px;
 }
 
-.container{
-    width:90%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-    grid-gap:20px;
-}  
-
-.box{
-    height:200px;
-    color: #111;
-    border:2px solid #111;
-    position: relative;
+.explore-grid {
+    display: flexbox;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
 }
 
+.items img {
+    width: 300px;
+    height: 180px;
+}
+
+@media (max-width:360px) {
+    .explore-grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
