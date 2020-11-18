@@ -2,6 +2,7 @@ var typed = new Typed('.type', {
         
     strings: ['TravelSpots',
         'Restaurents',
+        "events"
 
     ],
     typeSpeed: 100,
