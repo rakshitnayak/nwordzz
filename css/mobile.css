@@ -1,26 +1,42 @@
-@media screen and (max-width:1030px){
-    .navigation{
+/* navbar responsive */
+@media (max-width: 800px) {
+    .navbar {
         flex-direction: column;
-        margin-bottom: 30px;
+        align-items:center;
     }
-    .nav-left{
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
         flex-direction: column;
+    }
+
+    .navbar-links ul li {
         text-align: center;
     }
 
-    .nav-left ul{
-        margin: 30px;
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
     }
 
-   .content{
-       flex-direction: column-reverse;
-   }
+    .navbar-links.active {
+        display: flex;
+    }
+}
 
-   .content-right img{
-       height: 140px;
-   }
 
-   .news{
+
+@media screen and (max-width:1030px){
+    
+    .news{
        flex-direction: column;
        margin: 34px 0;
    }
@@ -44,15 +60,17 @@
         width: 361px
 
     }
+   
+    .banner-text h3{
+        display: none;
 
-@media screen and (max-width:393px){
-  .nav-right form{
-      margin:auto;
-  }
-  .nav-right form button{
-    margin:12px;
-}
-}
+    }
+    
+} 
+    
+
+
+
 
 
 
@@ -60,5 +78,25 @@
     .news img{
         width:260px
     }
-  }
+  
+}
+
+
+@media screen and (min-width:1024px){
+    .mobile-downarrow{
+        display: none;
+    }
+}
+
+@media (min-width: 800px) {
+    .btn-explore {
+        position: absolute;
+        right: 3%;
+        top: 30%;
+    }
+   .navbar-links{
+    position: absolute;
+    right: 8%;
+    top: -9%;
+   }
 }
