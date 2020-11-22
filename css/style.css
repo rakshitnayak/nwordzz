@@ -3,110 +3,101 @@
     padding: 0;
 }
 
+/* nav section */
+.main-banner {
+    background-image: url('../image/bgcontent.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+
+}
+
 .navigation {
-    font-family: var(--font1);
-    margin-top: 30px !important;
     display: flex;
     justify-content: space-between;
+    font-family: var(--font3);
     align-items: center;
+    padding-top: 20px
 }
 
 .nav-left {
-    font-size: 28px;
+   
     display: flex;
 }
 
 .nav-left span a {
     text-decoration: none;
-    color: black;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: bold;
+    color: #fff;
 }
 
-.nav-left ul {
+.nav-right {
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-right ul {
     display: flex;
     font-size: 20px;
     align-items: center;
     margin: 0 43px;
 }
 
-.nav-left ul li {
+.nav-right ul li {
     list-style: none;
     margin: 0 14px;
     font-family: var(--font2);
 }
 
-.nav-left ul li a {
+.nav-right ul li a {
     text-decoration: none;
-    color: black;
+    color: #fff;
 }
 
-.nav-left ul li a:hover {
-    font-weight: bolder;
-    color: var(--main-bg-color);
-}
-
-.nav-right .form-input {
-    border: 1px solid black;
-    height: 30px;
-    width: 200px;
-}
-
-.nav-right button {
-    border: 1px solid black;
-    height: 25px;
-    width: 80px;
-  
-}
-
-.content {
-    height: 100%;
-    display: flex;
-    margin-top: 32px !important;
-    position: relative;
-}
-
-.content::after {
-    content: "";
-    background-image: url('../image/bgcontent.jpg');
-    position: absolute;
-    width: 100%;
-    height: inherit;
-    opacity: 0.15;
-    background-position: center;
-    border-radius: 15px;
-}
-
-.content-left {
-    font-family: var(--font2);
+.btn-explore {
+    color: #fff;
     
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 30px;
 }
 
-.content-left h2 {
-    margin-bottom: 15px;
+
+
+.banner-text h3{
+    color: #fff;
+    font-family: var(--font3);
+    font-weight: normal;
+    font-size: 36px ;
+    position: absolute;
+    top: 450px;
+    left: 60px;
+ 
+   
 }
 
-.content-left p {
-    margin-right: 30px;
-    line-height: 2;
-}
 
-.content-right {
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 28px;
-}
 
-.content-right img {
-    height: 200px;
-    /* border: 2px solid black; */
-    border-radius: 200px;
-}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* latest news section */
 .home-news {
   
     padding-top: 20px;
