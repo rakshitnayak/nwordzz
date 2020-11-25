@@ -39,6 +39,9 @@
      max-width: 90vw;
  }
 
+ .max-width-4{
+    max-width: 85vw;
+}
 
  .m-auto{
      margin: auto;

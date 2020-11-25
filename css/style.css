@@ -4,7 +4,7 @@
 
 }
 
-/* nav section */
+
 .main-banner {
     background-image: url('../image/bgcontent.jpg');
     background-position: center;
@@ -13,103 +13,84 @@
 
 }
 
-.navbar {
+/* nav section */
+.navigation {
     display: flex;
-    position: relative;
     justify-content: space-between;
+    font-family: var(--font1);
     align-items: center;
-    background-color: rgba(15, 14, 14, 0.26);
-    color: #fff;
-    font-style: normal;
-    font-weight: normal;
-    font-family: var(--font3);
-    
+    padding-top: 20px;
 }
 
-.brand-title {
-    font-size: 1.5rem;
-    margin: .5rem;
-}
-
-.navbar-links {
-    height: 100%;
-}
-
-.navbar-links ul {
+.nav-left {
+    font-size: 32px;
     display: flex;
-    margin: 0;
-    padding: 0;
 }
 
-.navbar-links li {
-    list-style: none;
-}
-
-.navbar-links li a {
-    display: block;
+.nav-left span a {
     text-decoration: none;
-    color: white;
-    padding: 1rem;
+    color: #fff;
 }
 
-.navbar-links li:hover {
-   text-decoration: underline;
+.nav-right {
+    display: flex;
+    align-items: center;
 }
 
-.btn-explore{
+.nav-right ul {
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    margin: 0 43px;
+}
+
+.nav-right ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font3);
+}
+
+.nav-right ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.banner-text h2{
+    color: #fff;
+    font-family: var(--font3);
+    font-weight: normal;
+    font-size: 30px ;
     position: absolute;
-    right: 8%;
-    top: 30%;
+    top: 58%;
+    left: 5%;
+ 
+   
 }
-
-.toggle-button {
-    position: absolute;
-    top: .75rem;
-    left: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-}
-
-.toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px;
-}
-
-
-
-
-
-
-
-
-
-
 
 .banner-text h3{
     color: #fff;
     font-family: var(--font3);
     font-weight: normal;
-    font-size: 36px ;
+    font-size: 30px ;
     position: absolute;
-    top: 450px;
-    left: 60px;
+    top: 68%;
+    left: 5%;
  
    
 }
 
 
-.mobile-downarrow{
+
+
+
+/* .mobile-downarrow{
     color:#fff;
     position: absolute;
     top: 74%;
     left: 50%;
 
-}
+} */
 
 
 
@@ -132,10 +113,18 @@
 
 /* latest news section */
 .home-news {
-  
-    padding-top: 20px;
+  padding-top: 10px;
 }
 
+.home-newsnavbar{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-newsnavbar .search{
+   color: grey;
+}
 .news {
     display: flex;
     margin: 30px 0;
@@ -190,6 +179,6 @@
 .style-six {
     border: 0;
     height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(82, 77, 77, 0.3);
     border-bottom: 1px solid rgba(82, 77, 77, 0.3);
 }
