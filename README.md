@@ -1,5 +1,5 @@
 # nwordzz
 
-A startup! aim is to create a city news website which provides short news less than 100 words.!!!!
+##A startup! aiming to create a city news website...where explore pages and other stuff can also be found.
 
 link: https://rakshitnayak.github.io/nwordzz/
